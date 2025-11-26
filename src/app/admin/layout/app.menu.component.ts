@@ -24,9 +24,9 @@ export class AppMenuComponent implements OnInit {
             {
                 label: 'Inventario',
                 items: [
-                    { label: 'Categoria', icon: 'pi pi-fw pi-id-card', routerLink: ['/uikit/formlayout'] },
-                    { label: 'Producto', icon: 'pi pi-fw pi-check-square', routerLink: ['/uikit/input'] },
-                    
+                    { label: 'Categoria', icon: 'pi pi-fw pi-id-card', routerLink: ['/admin/categoria'] },
+                    { label: 'Producto', icon: 'pi pi-fw pi-check-square', routerLink: ['/admin/producto'] },
+
                 ]
             },
             {
@@ -44,10 +44,10 @@ export class AppMenuComponent implements OnInit {
                     { label: 'Roles', icon: 'pi pi-fw pi-desktop', url: ['https://www.primefaces.org/primeflex/'], target: '_blank' },
                 ]
             }
-            
-                
+
+
         ];
     }
-        
+
 }
 
